@@ -1,1 +1,1 @@
-vim
+apt install libfontconfig1-dev libharfbuzz-dev libfribidi-dev libudunits2-dev
