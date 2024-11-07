@@ -4,7 +4,6 @@ author: CHOULETTE Klervi, DENIS Manon, DUPORT Maureen, MOTTE Arthur, POYARD Anto
   SESIA Marion, TANGUY Céline
 date: "2024-11-07"
 output: html_document
-bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -30,6 +29,9 @@ library(rnaturalearthdata)  # for earth dataset
 library(ggspatial)          # for spatial plot
 library(gridExtra)          # for arranging plot
 library(kableExtra)         # for enhanced tables
+
+# Just to be on the safe side...
+sf::sf_use_s2(FALSE)
 ```
 
 ## Location
